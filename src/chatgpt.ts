@@ -40,7 +40,7 @@ enum MessageType {
 }
 
 export class ChatGPTBot {
-  botName: string = "";
+  botName: string = "ChatGPT";
   chatgptTriggerKeyword = Config.chatgptTriggerKeyword;
   OpenAIConfig: any; // OpenAI API key
   OpenAI: any; // OpenAI API instance
